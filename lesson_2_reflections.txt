@@ -1,0 +1,22 @@
+Reflection 1
+What happens when you initialize a repository? Why do you need to do it?
+
+Response:
+Initializing a repository  creates hidden .git files in the directory where executed.
+These files will contain meta-data to help with the version control processes.  One
+must do it if ones wishes to use the git version control tools.
+
+Reflection 2
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Response:
+The working directory can contain files that are not in the staging area and may never
+be committed to git.  The staging area represents a way to mark files in the working
+directory as 'commit'able to git. Both of these differ from the repository, as the 
+repository--when it contains files--contains the last committed version of the files
+in the staging area.  These files are preserved in their state at the time of the commit.
+Additionally, the repository can contain previous states of thes files.  So, essentially, the
+repository contains a collection of file-states--usually associated with each other in a
+persisting way.
+**Aside:  It seems that questions of personal identity are relevant to files and file states.
