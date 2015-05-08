@@ -20,3 +20,48 @@ Additionally, the repository can contain previous states of thes files.  So, ess
 repository contains a collection of file-states--usually associated with each other in a
 persisting way.
 **Aside:  It seems that questions of personal identity are relevant to files and file states.
+
+Reflection 3
+How can you use the staging area to make sure you have one commit per logical change?
+
+Response:
+The staging area allows you to track which files you are about to commit.  You can use
+the staging areas to compare files in the staging area with files in either the working
+directory or the repository.  Therefore the are several ways one may use the staging area
+as a tool to help one commit one logical change at a time.
+
+Reflection 4
+What are some situations when branches would be helpful in keeping your history organied? How 
+would branches help?
+
+Response:
+Branching can be helpful if one is working on different versions of an applicaiton intended for
+different purposes.  One could branch the repository at the point when the programs would 
+logically diverge.  Branching may also be helpful if one wishes to simultaneously have an 
+application worked on by two different teams, for purposes of comparatively testing the 
+different implementations.
+
+Reflection 5
+How do diagrams help you visualize the branch structure?
+
+Response:
+Digrams help visualize branch structure by visually laying out commits as connected
+to their parents.  One can easiy see what files belong to which branch.
+
+Reflection 6
+What is the result of merging two branches together? Why do we represent it in the diagram
+the way we do?
+
+Response:
+Merging two branches together incorporates the changes introduced in a to-be non-head branch
+into a designated head branch.  They are represented on the graph in such a way to clearly show
+the parent relationships of the commits, and also to show what previous commits will be tied in
+other commits.
+
+Reflection 7
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Response:
+Automatic merging makes the merging process more time-efficient in non-problematic cases. On the
+other hand, in more bizarre cases it may merge files resulting in an application that is broken
+or performs in ways unintended.
