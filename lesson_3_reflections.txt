@@ -1,0 +1,9 @@
+Reflection 1
+When would you want to use a remote repository rather than keeping all your work local?
+
+Response:
+One would want to use a remote repository when:
+-the work is ready to be shared with non-local users (collaboration).
+-there is a desire to maintain the work in 'the cloud' for ease of access regardless of machine or
+    geographical location.
+-there is a desire to increase the redundancy of maintaining the data (avoid local machine breaking).
