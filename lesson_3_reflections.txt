@@ -7,3 +7,65 @@ One would want to use a remote repository when:
 -there is a desire to maintain the work in 'the cloud' for ease of access regardless of machine or
     geographical location.
 -there is a desire to increase the redundancy of maintaining the data (avoid local machine breaking).
+
+Reflection 2
+Why might you want to always pull changes manually rather than having Git automatically stay
+up-to-date with your remote repository?
+
+Response:
+Manual pull changes allows one to be selective about when one has access to all of the updates 
+of a repository.  Suppose one is working as a part of a group that is using a GitHub 
+repository to store and share files. If a member is working on a specific problem, she may have 
+no need for updated files that are being committed to the repository as she is working because
+the updates are not relevant to her purpose.  Indeed, they might makek her task more difficult
+if she has to constantly reunderstand the program performance based on updates that have nothing
+to do with her purpose.
+
+Reflection 3
+Describe the differences between forks, clones, and branches. When would you use one instead of 
+another?
+
+Respsone:
+Forks create coppies of repositories on GitHub. One would want to fork a repository if she did 
+not have permissions to access of modify the existing repository.
+Clone allows one to copy a repository from GitHub to a local machine, or copy a repository
+within a file system. One would clone if she wanted to move a repository from one location
+to another.
+Branches allow one to modify the files of a repository without effecting other commits that
+the branch has diverged from.  One may want to branch if they are working on different
+versions of the same project (such as creating text for two different languages).  One may
+also want to branch if it help her to organize her project according to her work methods.
+
+Reflection 4
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Response:
+This allows one to check updates made to the remote before merging them into the local master
+branch.  This may be useful to check for unnecessary redundancy or if there will be difficulty
+merging.  Also, if one is not going to be able to connect to the internet for a while--but is
+not ready to fully integrate changes to the repository into their local copy--it allows one
+to have the files store locally on a separate branch without having to prematurely resolve
+any conflicts.
+
+Reflection 5
+How would you collaborate without using Git or GitHub? What would be easier, and what would be 
+harder?
+
+Response:
+I have no experience with any other version-control systems that are streamlined for software
+application projects.  So, non-localized collaboration would require the use of a more geneeric
+file sharing system such as Google Drive. The only apparent advantage may be that the GUI would
+be more easily learnt by collaborators who were unfamiliar with Git. It would be harder to work
+on the project simultaneously, then integrate each collaborator's work into a final product.
+
+Reflection 6
+When would you wan to make changes in a separate branch rather than directly in master? What
+benefits does each approach have?
+
+Response:
+One may want to make changes in a separate branch if one were trying something experiemental
+or if it was necessary to allow a collaborator(s) to review changes before incorporating
+them into the master changes, among other reasons.  Changing the master directly will give 
+other collaborators access to the most updated project.  Using a branch will allow you
+to work on a feature without introducing changes into the master branch before your feauture
+is sufficiently ready.
